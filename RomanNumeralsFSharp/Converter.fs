@@ -1,0 +1,43 @@
+﻿namespace RomanNumerals
+
+module Converter =
+
+    let numerals = ["I"; "V"; "X"; "L"; "C"; "D"; "M"]
+
+    let one index = List.nth numerals (index * 2)
+    let five index = List.nth numerals (index * 2 + 1)
+    let four index = one index + five index
+    let ten index = List.nth numerals (index *2 + 2)
+    let nine index = one index + ten index
+
+    let rec fillOnes number index =
+        if number = 0 then
+            ""
+        else
+            one index + fillOnes (number - 1) index
+
+    let rec buildSingleDigit number index =
+        if number = 0 then
+            ""
+        elif number = 4 then
+            four index
+        elif number = 9 then
+            nine index
+        elif number >= 5 then
+            five index + (buildSingleDigit (number - 5) index)
+        else
+            fillOnes number index
+
+    let isLastSymbol index =
+        index * 2 + 1 = numerals.Length
+
+    let rec build number index =
+        if number = 0 then
+            ""
+        elif isLastSymbol index then
+            fillOnes number index
+        else
+            build (number / 10) (index + 1) + buildSingleDigit (number % 10) index
+    
+    let ToRoman number =
+        build number 0
