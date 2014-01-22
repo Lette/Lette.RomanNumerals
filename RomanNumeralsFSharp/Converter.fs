@@ -11,22 +11,17 @@ module Converter =
     let nine index = one index + ten index
 
     let rec fillOnes number index =
-        if number = 0 then
-            ""
-        else
-            one index + fillOnes (number - 1) index
+        match number with
+        | 0 -> ""
+        | _ -> one index + fillOnes (number - 1) index
 
     let rec buildSingleDigit number index =
-        if number = 0 then
-            ""
-        elif number = 4 then
-            four index
-        elif number = 9 then
-            nine index
-        elif number >= 5 then
-            five index + (buildSingleDigit (number - 5) index)
-        else
-            fillOnes number index
+        match number with
+        | 0 -> ""
+        | 4 -> four index
+        | 9 -> nine index
+        | i when i >= 5 -> five index + (buildSingleDigit (number - 5) index)
+        | _ -> fillOnes number index
 
     let isLastSymbol index =
         index * 2 + 1 = numerals.Length
