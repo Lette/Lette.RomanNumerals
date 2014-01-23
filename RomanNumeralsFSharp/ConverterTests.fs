@@ -2,7 +2,7 @@
 
 open Xunit
 open Xunit.Extensions
-open RomanNumerals.Converter
+open RomanNumerals.FSharp.Converter
 
 module ConverterTests =
 

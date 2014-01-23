@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals", "RomanNumer
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RomanNumeralsFSharp", "RomanNumeralsFSharp\RomanNumeralsFSharp.fsproj", "{556BD175-53F5-4309-95DE-93EFBCC527D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralsFSharp.CSharpTests", "RomanNumeralsFSharp.CSharpTests\RomanNumeralsFSharp.CSharpTests.csproj", "{A36A0DB0-E258-4D2B-B0FA-605DBA9EF44C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{556BD175-53F5-4309-95DE-93EFBCC527D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{556BD175-53F5-4309-95DE-93EFBCC527D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{556BD175-53F5-4309-95DE-93EFBCC527D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36A0DB0-E258-4D2B-B0FA-605DBA9EF44C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36A0DB0-E258-4D2B-B0FA-605DBA9EF44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36A0DB0-E258-4D2B-B0FA-605DBA9EF44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36A0DB0-E258-4D2B-B0FA-605DBA9EF44C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
