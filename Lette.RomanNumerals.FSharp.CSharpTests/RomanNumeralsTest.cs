@@ -50,7 +50,7 @@ namespace Lette.RomanNumerals.FSharp.CSharpTests
         [PropertyData("TestData")]
         public void Converts_number_to_roman(int number, string expected)
         {
-            var converter = new global::RomanNumerals.Converter();
+            var converter = new DotNetWrappers.Converter();
 
             var inRoman = converter.ToRoman(number);
 
