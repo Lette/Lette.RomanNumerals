@@ -1,17 +1,17 @@
-## Lette.RomanNumerals
+`Lette.RomanNumerals`
 
-RomanNumerals Kata with F#/xUnit.Net and JavaScript/Jasmine
+Roman numerals Kata with F#/xUnit.Net and JavaScript/Jasmine.
 
-### Lette.RomanNumerals.FSharp
+`Lette.RomanNumerals.FSharp`
 
-F# implementation of roman numerals converter.
-Tests written in F# with xUnit.net.
+- F# implementation of roman numerals converter.
+- Tests written in F# with xUnit.net.
 
-### Lette.RomanNumerals.FSharp.CSharpTests
+`Lette.RomanNumerals.FSharp.CSharpTests`
 
-Tests for F# implementation written in C# with xUnit.net.
+- Tests for F# implementation written in C# with xUnit.net.
 
-### Lette.RomanNumerals.JavaScript
+`Lette.RomanNumerals.JavaScript`
 
-Functional (no variables!) JavaScript implementation of roman numerals converter.
-Tests written with Jasmine.
+- Functional **(no variables!)** JavaScript implementation of roman numerals converter.
+- Tests written with Jasmine.
