@@ -1,8 +1,8 @@
-﻿namespace RomanNumerals
+﻿namespace Lette.RomanNumerals.FSharp.Tests
 
 open Xunit
 open Xunit.Extensions
-open RomanNumerals.FSharp.Converter
+open Lette.RomanNumerals.FSharp.Converter
 
 module ConverterTests =
 

@@ -7,8 +7,8 @@
     <ProjectGuid>{A36A0DB0-E258-4D2B-B0FA-605DBA9EF44C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RomanNumeralsFSharp.CSharpTests</RootNamespace>
-    <AssemblyName>RomanNumeralsFSharp.CSharpTests</AssemblyName>
+    <RootNamespace>Lette.RomanNumerals.FSharp.CSharpTests</RootNamespace>
+    <AssemblyName>Lette.RomanNumerals.FSharp.CSharpTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

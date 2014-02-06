@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace RomanNumerals
+namespace Lette.RomanNumerals.JavaScript
 {
     public class RouteConfig
     {

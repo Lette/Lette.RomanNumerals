@@ -2,11 +2,10 @@
 using Xunit;
 using Xunit.Extensions;
 
-namespace RomanNumeralsFSharp.CSharpTests
+namespace Lette.RomanNumerals.FSharp.CSharpTests
 {
     public class RomanNumeralsTest
     {
-
         public static IEnumerable<object[]> TestData
         {
             get
@@ -51,7 +50,7 @@ namespace RomanNumeralsFSharp.CSharpTests
         [PropertyData("TestData")]
         public void Converts_number_to_roman(int number, string expected)
         {
-            var converter = new RomanNumerals.Converter();
+            var converter = new global::RomanNumerals.Converter();
 
             var inRoman = converter.ToRoman(number);
 

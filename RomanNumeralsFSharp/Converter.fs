@@ -1,4 +1,4 @@
-﻿namespace RomanNumerals.FSharp
+﻿namespace Lette.RomanNumerals.FSharp
 
 module Converter =
 

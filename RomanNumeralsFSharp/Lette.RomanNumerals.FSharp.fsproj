@@ -8,11 +8,11 @@
     <ProjectGuid>556bd175-53f5-4309-95de-93efbcc527d4</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>RomanNumeralsFSharp</RootNamespace>
-    <AssemblyName>RomanNumeralsFSharp</AssemblyName>
+    <AssemblyName>Lette.RomanNumerals.FSharp</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.3.1.0</TargetFSharpCoreVersion>
-    <Name>RomanNumeralsFSharp</Name>
+    <Name>Lette.RomanNumerals.FSharp</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -62,8 +62,8 @@
     <None Include="App.config" />
     <None Include="packages.config" />
     <Compile Include="Converter.fs" />
-    <Compile Include="ConverterTests.fs" />
-    <Compile Include="ConverterDotNetWrapper.fs" />
+    <Compile Include="Tests.ConverterTests.fs" />
+    <Compile Include="DotNetWrappers.Converter.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
