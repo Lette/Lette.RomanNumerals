@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lette.RomanNumerals.JavaScript", "RomanNumerals\Lette.RomanNumerals.JavaScript.csproj", "{615E491C-49B9-44F3-8AEF-2C40ADCE8E1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lette.RomanNumerals.JavaScript", "Lette.RomanNumerals.JavaScript\Lette.RomanNumerals.JavaScript.csproj", "{615E491C-49B9-44F3-8AEF-2C40ADCE8E1F}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Lette.RomanNumerals.FSharp", "RomanNumeralsFSharp\Lette.RomanNumerals.FSharp.fsproj", "{556BD175-53F5-4309-95DE-93EFBCC527D4}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Lette.RomanNumerals.FSharp", "Lette.RomanNumerals.FSharp\Lette.RomanNumerals.FSharp.fsproj", "{556BD175-53F5-4309-95DE-93EFBCC527D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lette.RomanNumerals.FSharp.CSharpTests", "RomanNumeralsFSharp.CSharpTests\Lette.RomanNumerals.FSharp.CSharpTests.csproj", "{A36A0DB0-E258-4D2B-B0FA-605DBA9EF44C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lette.RomanNumerals.FSharp.CSharpTests", "Lette.RomanNumerals.FSharp.CSharpTests\Lette.RomanNumerals.FSharp.CSharpTests.csproj", "{A36A0DB0-E258-4D2B-B0FA-605DBA9EF44C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
